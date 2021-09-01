@@ -23,4 +23,8 @@ class UserProvider {
         return Usuarios.any { it.Username == Username && it.Password == Password }
     }
 
+    fun getUser(Username: String): User? {
+        return Usuarios.find { it.Username == Username }
+    }
+
 }
