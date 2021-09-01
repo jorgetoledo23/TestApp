@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/ic_baseline_face_24"
+        android:title="Test"
+        android:contentDescription="Test"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/more"
+        android:title="Perfil"
+        android:contentDescription="Opciones del Usuario"
+        app:showAsAction="never" />
+
+</menu>
